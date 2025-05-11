@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Barra de Pesquisa</title>
+    <link rel="stylesheet" href="estiloCSS/index.css">
+    <script src="scriptJS/jQuery.js"></script>
+    <script src="scriptJS/read.js"></script>
+    <script src="scriptJS/delete.js"></script>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+<!--<div class="video-container">
+        <video autoplay loop muted class="video-background">
+            <source src="video/video_mecanico.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+             </video>
+    </div> -->
+    <div class="background">
+        <img src="imagens/carro_embaixo.jpg" alt="Fundo_Consultar" width="400" class="background-image">
+    </div>
+
+    <div >
+        <h1 class="cor-h1-index">Consulta de Veículos</h1>
+    </div>
+
+    <section class="container">
+        <section class="search-bar"> 
+            <input type="text" id="searchInput" placeholder="Digite um ID...">
+            <button id="searchButton" class="searchButton">Pesquisar</button>
+            <a href="insert.html">
+                <button id="addButton" class="add-btn">Novo Veículo</button>
+            </a>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Ano</th>
+                    <th>Motor</th>
+                    <th>Placa</th>
+                    <th>Dono</th>
+                    <th>CNH</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>Editar</th>
+                    <th>Deletar</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                
+            </tbody>
+        </table>
+    </section>
+    <script>  </script>
+</body>

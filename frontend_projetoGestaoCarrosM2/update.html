@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Veículo</title>
+    <link rel="stylesheet" href="estiloCSS/form.css">
+    <script src="scriptJS/jQuery.js"></script>
+    <script src="scriptJS/update.js"></script>
+</head>
+<body>
+    <div class="background">
+        <img src="imagens/carro_rampa.jpg" alt="Fundo_Editar" width="400" class="background-image">
+    </div>
+
+    <form class="form-container">
+        <h2>Editar Cadastro de Veículo</h2>
+        <div class="form-group">
+            <label for="id">ID</label>
+            <input type="text" readonly id="id" name="id">
+        </div>
+        <div class="form-group">
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" name="marca">
+        </div>
+        <div class="form-group">
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" name="modelo">
+        </div>
+        <div class="form-group">
+            <label for="ano">Ano</label>
+            <input type="text" id="ano" name="ano">
+        </div>
+        <div class="form-group">
+            <label for="motor">Motor</label>
+            <input type="text" id="motor" name="motor">
+        </div>
+        <div class="form-group">
+            <label for="placa">Placa</label>
+            <input type="text" id="placa" name="placa">
+        </div>
+        <div class="form-group">
+            <label for="dono">Dono</label>
+            <input type="text" id="dono" name="dono">
+        </div>
+        <div class="form-group">
+            <label for="cnh">CNH</label>
+            <input type="text" id="cnh" name="cnh">
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+        </div>
+        <div class="form-group">
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="submitButton">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

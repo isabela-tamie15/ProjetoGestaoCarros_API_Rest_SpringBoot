@@ -1,0 +1,120 @@
+.video-background {
+    position: fixed; /* Mantém o vídeo fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Envia o vídeo para trás do conteúdo */
+    object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
+}
+
+/* Estilo da imagem de fundo */
+.background {
+    position: fixed; /* A imagem permanece fixa mesmo ao rolar a página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+.cor-h1-index {
+    color: white; /* Cor do texto */
+    font-size: 3rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência */
+    padding: 0.05em 0.3em; /* Ajuste o espaçamento ao redor do texto */
+    display: inline-block; /* Garante que o fundo seja apenas do tamanho do texto */
+    border-radius: 5px; /* Bordas arredondadas opcionais */
+} /* Até aqui, meu toque pessoal */
+
+.background-image {
+    width: 100%; /* Ajusta a largura da imagem ao tamanho da tela */
+    height: 100%;
+    object-fit: cover; /* Faz com que a imagem cubra toda a tela sem distorcer */
+} /* Meu toque pessoal */
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    /* padding: 20px;
+    border: solid #6d6d6d;
+    border-radius: 25px; */
+    font-size: 40pt;
+    collor: white;
+    /* background-color: #d6d6d6; */
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-btn {
+    border-radius: 0 4px 4px 0;
+}
+
+.add-btn {
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
